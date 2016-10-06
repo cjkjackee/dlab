@@ -94,7 +94,9 @@ begin
 	//calculate 
 	if (mode==1 && mode_chk==1)
 	begin
-		/*if (!(a2_chk&b2_chk))
+		//好象是因为多个signed相加而overflow造成存入out_real的值出现错
+		//误
+		/*if (!(a2_chk&b2_chk))   
 		begin
 			//shift in_a into reg
 			{a0_real,a0_img,a0_chk} <= {a_real,a_img,a_chk};
