@@ -1,0 +1,1098 @@
+Command Line: /usr/cad/spring/verdi/cur/platform/LINUXAMD64/bin/verdi
+uname(Linux hwlab03 2.6.9-89.ELsmp #1 SMP Mon Jun 22 12:31:33 EDT 2009 x86_64)
+License: Failed to check out nWave, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       nWave
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       nWave
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       nWave
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       nWave
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       nWave
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 2008.0, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       nWave
+License: 	Server name:   lscic
+License: 	License path:  5229@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       nWave
+License: 	Server name:   lscic
+License: 	License path:  5219@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Debussy
+License: 	Server name:   lscic
+License: 	License path:  5229@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Debussy
+License: 	Server name:   lscic
+License: 	License path:  5219@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Debussy_shared
+License: 	Server name:   lscic
+License: 	License path:  5229@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Debussy_shared
+License: 	Server name:   lscic
+License: 	License path:  5219@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Debussy
+License: 	Server name:   lscic
+License: 	License path:  5229@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Debussy
+License: 	Server name:   lscic
+License: 	License path:  5219@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Debussy_shared
+License: 	Server name:   lscic
+License: 	License path:  5229@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Debussy_shared
+License: 	Server name:   lscic
+License: 	License path:  5219@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       nWave
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       nWave
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       nWave
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       nWave
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       nWave
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 2008.0, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       nWave
+License: 	Server name:   lscic
+License: 	License path:  5229@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out nWave, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       nWave
+License: 	Server name:   lscic
+License: 	License path:  5219@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Debussy
+License: 	Server name:   lscic
+License: 	License path:  5229@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Debussy
+License: 	Server name:   lscic
+License: 	License path:  5219@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Debussy_shared
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Debussy_shared
+License: 	Server name:   lscic
+License: 	License path:  5229@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Debussy_shared, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Debussy_shared
+License: 	Server name:   lscic
+License: 	License path:  5219@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Verdi, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Verdi
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Verdi, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Verdi
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Verdi, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Verdi
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Verdi, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Verdi
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Verdi, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Verdi
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Reusner
+License: 	Server name:   lscic
+License: 	License path:  5229@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Reusner
+License: 	Server name:   lscic
+License: 	License path:  5219@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Reusner
+License: 	Server name:   lscic
+License: 	License path:  5229@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Reusner
+License: 	Server name:   lscic
+License: 	License path:  5219@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Reusner
+License: 	Server name:   lscic
+License: 	License path:  5229@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Reusner
+License: 	Server name:   lscic
+License: 	License path:  5219@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Reusner
+License: 	Server name:   lscic
+License: 	License path:  5229@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Reusner
+License: 	Server name:   lscic
+License: 	License path:  5219@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Reusner
+License: 	Server name:   lscic
+License: 	License path:  5229@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Reusner
+License: 	Server name:   lscic
+License: 	License path:  5219@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Reusner
+License: 	Server name:   lscic
+License: 	License path:  5229@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Reusner
+License: 	Server name:   lscic
+License: 	License path:  5219@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsnctu
+License: 	License path:  1717@lsnctu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lscic
+License: 	License path:  5280@lscic
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsncu
+License: 	License path:  5280@lsncu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsntu
+License: 	License path:  5280@lsntu
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -97:
+License: 	The desired vendor daemon is down
+License: 	1) Check the lmgrd log file, or 2) Try lmreread
+License: 	Feature:       Reusner
+License: 	Vendor:Host:   lsncku
+License: 	License path:  5280@lsncku
+License: 	FLEXlm error:  -97,121
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -18:
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Reusner
+License: 	Server name:   lscic
+License: 	License path:  5229@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+License: Failed to check out Reusner, version 2008.0, rc = -15:
+License: 	Cannot connect to license server
+License: 	The server (lmgrd) has not been started yet, or
+License: 	the wrong port@host or license file is being used, or the
+License: 	port or hostname in the license file has been changed.
+License: 	Feature:       Reusner
+License: 	Server name:   lscic
+License: 	License path:  5219@lscic
+License: 	FLEXlm error:  -15,570.  System Error: 111 "Connection refused"
+License: 	For further information, refer to the FLEXlm End User Manual,
+License: 	available at "www.macrovision.com".
+au time 995 1.305802 1.158823 delta 31498288 31338496 total 32268288 32268288
