@@ -18,4 +18,10 @@ Logic synthesis
 	*	原件沒有了
 	*	因爲沒有pos logic 所以從neg logic 開始思考
 
+速度>面積，先考慮速度，在速度的限制下，面積越小越好
+Power 維持在一定限度就好。
+	*	現在的synthesis 沒有power 的設定檔
+
+*用case比if更快（因爲case都是基本logic gate），盡量用case*
+
 
