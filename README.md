@@ -22,6 +22,6 @@ Logic synthesis
 Power 維持在一定限度就好。
 	*	現在的synthesis 沒有power 的設定檔
 
-*用case比if更快（因爲case都是基本logic gate），盡量用case*
+*用case比if更快（因爲case都是基本logic gate），盡量用case!*
 
 
