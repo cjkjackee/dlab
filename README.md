@@ -13,7 +13,7 @@
 Logic synthesis
 +	3 logic gates
 	*	對只有正logic的最佳化
-+`	6 basic CMOS gates
++	6 basic CMOS gates
 	*	讓timing，電流，電壓穩定
 	*	原件沒有了
 	*	因爲沒有pos logic 所以從neg logic 開始思考
