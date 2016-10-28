@@ -79,3 +79,20 @@ value tracing
 	*	有那些pattern可能會出現問題
 	*	擴張test pattern
 
+coding guidelines
+-	定下變數名稱
+
+suggested coding style
+-	切成不同小區塊
+-	formal port mapping：有多少個port去排列
+-	[7：0]這類的const，用parameter來取代
+
+general coding guidelines
+-	一行80個字
+	+	標準的editor一行80個字
+-	盡量不要用非同步reset
+-	不能mix module 和 code
+
+non-synthesizable verilog
+-	不能合成delay
+	+	因爲有delay可是不會有精準的delay
