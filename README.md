@@ -96,3 +96,21 @@ general coding guidelines
 non-synthesizable verilog
 -	不能合成delay
 	+	因爲有delay可是不會有精準的delay
+
+# partition for synthesis
+
+-	很精準的告訴合成軟體架構是怎樣的，而always不能精準的告訴軟體
+	+	所以要切多個module
+-	把module切出來後就可以知道他天生最佳化有的問題
+-	1萬個gate的效率比較好，而且人最多能handle不超過1萬的gate，所以最大1
+	萬
+-	軟體一次就拿250gate，所以最小250個
+-	因爲切了不同的module，可以對不同的module下不同的最佳化
+-	暫存器在FSM的input，output沒有對齊;在output，output都是對齊的。
+	+	盡量output對齊
+-	glue logic
+	+	某個input是與別人相反的，所以直接以～來接
+	+	gate level是放一個反相器進來，可是這個反相器不知道是屬於哪個
+		module的
+-	combinational 沒有 hierarchy 的架構
+-	所有output都要reg
