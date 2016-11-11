@@ -114,3 +114,42 @@ non-synthesizable verilog
 		module的
 -	combinational 沒有 hierarchy 的架構
 -	所有output都要reg
+
+# intro to FPGA
+
+-	出現的重點不是量產，在於減少生產成本
+-	IC不是便宜的生意，但是做出來要量大，便宜才可以用
+-	現在最高單價的硬體是FPGA（70萬-120萬）
+
+Digital logic
+-	full custom
+	+	全制定
+-	ASICs
+	+	gate array：先把電晶體做好，再根據需求做出gate
+	+	standard cells：standard library
+-	以上兩種做好了就回不去了
+-	programmable logic devices
+-	standard logic
+	+	更低成本的設計
+	+	TTL 74XX：面包板
+
+FPGA
+-	Field Programmable Gate Array
+-	power 不能亂拔
+-	晶片不要亂摸
+-	hardware/software co-designs
+-	EDA supporting
+-	速度50M-100M
+-	logic block == logic element
+
+SPLD
+-	有PAL，PLA
+-	速度不高，10M
+-	復雜度不高
+
+CPLD
+-	多個block以bus接起來
+
+# 注
+-	verilog 的 always@（negedge。。。||posedge。。。）是理想化的
+-	
