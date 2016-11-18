@@ -1,0 +1,190 @@
+
+                        DC Professional (TM)
+                           DC Expert (TM)
+                            DC Ultra (TM)
+                       FloorPlan Manager (TM)
+                          HDL Compiler (TM)
+                         VHDL Compiler (TM)
+                        Library Compiler (TM)
+                      DesignWare Developer (TM)
+                          DFT Compiler (TM)
+                            BSD Compiler
+                         Power Compiler (TM)
+
+           Version B-2008.09-SP2 for linux -- Nov 28, 2008
+              Copyright (c) 1988-2008 by Synopsys, Inc.
+                         ALL RIGHTS RESERVED
+
+This software and the associated documentation are confidential and 
+proprietary to Synopsys, Inc. Your use or disclosure of this software 
+is subject to the terms and conditions of a written license agreement 
+between you, or your company, and Synopsys, Inc.
+
+The above trademark notice does not imply that you are licensed to use 
+all of the listed products. You are licensed to use only those products 
+for which you have lawfully obtained a valid license key.
+
+Initializing...
+Error: version conflict for package "Tk": have 8.4, need 8.3
+	Use error_info for more info. (CMD-013)
+Information: script '/usr/cad/syntest/turboscan/cur/tc_rtl/lib/tk8.3.1/tk.tcl'
+	stopped at line 17 due to error. (CMD-081)
+#======================================================
+#
+# Synopsys Synthesis Scripts (Design Vision dctcl mode)
+#
+#======================================================
+#======================================================
+#  Set Libraries
+#======================================================
+set search_path {list . /cad/EDA/synopsys/synthesis/2008.09-sp2/libraries/syn 						/cad/EDA/synopsys/synthesis/2008.09-sp2/dw/sim_ver                         /cad/CBDLIB/CBDK_IC_Contest_v2.1/SynopsysDC/db
+
+				../01_RTL .. .}
+list . /cad/EDA/synopsys/synthesis/2008.09-sp2/libraries/syn       /cad/EDA/synopsys/synthesis/2008.09-sp2/dw/sim_ver                         /cad/CBDLIB/CBDK_IC_Contest_v2.1/SynopsysDC/db
+
+    ../01_RTL .. .
+set link_library {* slow.db dw_foundation.sldb}
+* slow.db dw_foundation.sldb
+set synthetic_library {standard.sldb dw_foundation.sldb}
+standard.sldb dw_foundation.sldb
+set target_library {slow.db}
+slow.db
+#======================================================
+#  Global Parameters
+#======================================================
+set DESIGN "IMPOR"
+IMPOR
+set CLK_period 4.0
+4.0
+set hdlin_ff_always_sync_set_reset true
+true
+#======================================================
+#  Read RTL Code
+#======================================================
+read_verilog -rtl $DESIGN\.v
+Loading db file '/cad/CBDLIB/CBDK_IC_Contest_v2.1/SynopsysDC/db/slow.db'
+Loading db file '/cad/EDA/synopsys/synthesis/2008.09-sp2/libraries/syn/dw_foundation.sldb'
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/gtech.db'
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/standard.sldb'
+  Loading link library 'slow'
+  Loading link library 'gtech'
+Loading verilog file '/users/dlab2016/2016dlab69/Lab03/01_RTL/IMPOR.v'
+Running PRESTO HDLC
+Compiling source file /users/dlab2016/2016dlab69/Lab03/01_RTL/IMPOR.v
+Error:  /users/dlab2016/2016dlab69/Lab03/01_RTL/IMPOR.v:65: The statements in this 'always' block are outside the scope of the synthesis policy. Only an 'if' statement is allowed at the top level in this always block. (ELAB-302)
+*** Presto compilation terminated with 1 errors. ***
+Error: Can't read 'verilog' file '/users/dlab2016/2016dlab69/Lab03/01_RTL/IMPOR.v'. (UID-59)
+No designs were read
+current_design $DESIGN
+Error: Can't find design 'IMPOR'. (UID-109)
+Error: Current design is not defined. (UID-4)
+#======================================================
+#  Global Setting
+#======================================================
+set_wire_load_mode top
+Error: Current design is not defined. (UID-4)
+0
+#======================================================
+#  Set Design Constraints
+#======================================================
+create_clock -name "clk" -period $CLK_period clk
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'clk'. (UID-109)
+Error: Value for list 'source_objects' must have 1 elements. (CMD-036)
+0
+#set_ideal_net clk
+set_input_delay [expr $CLK_period*0.5] -clock clk [all_inputs]
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'clk'. (UID-109)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+0
+set_output_delay [expr $CLK_period*0.5] -clock clk [all_outputs]
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'clk'. (UID-109)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+0
+set_input_delay 0 -clock clk clk
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'clk'. (UID-109)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'clk'. (UID-109)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+0
+set_input_delay 0 -clock clk rst_n
+Error: Current design is not defined. (UID-4)
+Error: Can't find clock 'clk'. (UID-109)
+Error: Value for list '-clock' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Can't find object 'rst_n'. (UID-109)
+Error: Value for list 'port_pin_list' must have 1 elements. (CMD-036)
+0
+set_load 0.05 [all_outputs]
+Error: Current design is not defined. (UID-4)
+Error: Value for list 'objects' must have 1 elements. (CMD-036)
+0
+#set hdlin_ff_always_sync_set_reset true
+#======================================================
+#  Optimization
+#======================================================
+#uniquify
+check_design > Report/$DESIGN\.check
+set_fix_multiple_port_nets -all -buffer_constants
+Error: Current design is not defined. (UID-4)
+0
+#set_fix_hold [all_clocks]
+compile_ultra
+Error: Current design is not defined. (UID-4)
+0
+#======================================================
+#  Output Reports 
+#======================================================
+report_timing >  Report/$DESIGN\.timing
+report_area >  Report/$DESIGN\.area
+#======================================================
+#  Change Naming Rule
+#======================================================
+set bus_inference_style "%s\[%d\]"
+%s[%d]
+set bus_naming_style "%s\[%d\]"
+%s[%d]
+set hdlout_internal_busses true
+true
+change_names -hierarchy -rule verilog
+Error: Current design is not defined. (UID-4)
+0
+define_name_rules name_rule -allowed "a-z A-Z 0-9 _" -max_length 255 -type cell
+1
+define_name_rules name_rule -allowed "a-z A-Z 0-9 _[]" -max_length 255 -type net
+1
+define_name_rules name_rule -map {{"\\*cell\\*" "cell"}}
+1
+change_names -hierarchy -rules name_rule
+Error: Current design is not defined. (UID-4)
+0
+#======================================================
+#  Output Results
+#======================================================
+set verilogout_higher_designs_first true
+true
+write -format verilog -output Netlist/$DESIGN\_SYN.v -hierarchy
+Error: No files or designs were specified. (UID-22)
+0
+write_sdf -version 2.1 -context verilog -load_delay cell Netlist/$DESIGN\_SYN.sdf
+Error: Current design is not defined. (UID-4)
+0
+#======================================================
+#  Finish and Quit
+#======================================================
+report_timing
+Error: Current design is not defined. (UID-4)
+0
+exit
+Information: Defining new variable 'CLK_period'. (CMD-041)
+Information: Defining new variable 'DESIGN'. (CMD-041)
+
+Thank you...

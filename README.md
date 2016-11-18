@@ -152,4 +152,8 @@ CPLD
 
 # 注
 -	verilog 的 always@（negedge。。。||posedge。。。）是理想化的
--	
+
+# 作業小提示
+-	check output port 有沒有放reg
+-	如果出現Latch，注意是否case都有放default、if是否都有放else
+-	如果FSM 的next state 的reg出現Latch，把blocking 換成 non-blocking，default 是否有放，default裏面，next state = 一個parameter，不要放next state=next state
