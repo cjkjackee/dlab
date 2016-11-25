@@ -150,6 +150,20 @@ SPLD
 CPLD
 -	多個block以bus接起來
 
+# coding style to FPGA
+
+-	FPGA不一定要reset
+-	counter不寫==，寫>= （防止counter永遠動不到==的value的情況）
+-	穩態電路：什麼狀態就會一直持續這個狀態
+-	單穩態電路：給你一個電流，現在不會時狀態改變，但是只要時間夠久，狀態就會改變（所有verilog寫的電路，除了無穩態）
+-	無穩態電路：震蕩器，可以用來做clk或亂數產生器
+-	reset的重點：強迫電路，在時間一致的情況下，回到大家的初始值
+-	以最慢的clk來設定reset
+-	if-else在verilog是個不好的寫法
+-	FPGA建議是用case
+	-	default不一定有用，是化簡的建議的答案而已
+
+
 # 注
 -	verilog 的 always@（negedge。。。||posedge。。。）是理想化的
 
