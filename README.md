@@ -163,6 +163,37 @@ CPLD
 -	FPGA建議是用case
 	-	default不一定有用，是化簡的建議的答案而已
 
+# FPGA debugging
+-	functional definition error
+	- 知不知道你要寫的是什麼，題目要求是什麼
+-	functional system interaction problems
+	-	單個module是對的，合起來是錯的
+	-	檢測每個module的輸出，和鏈接
+-	system-level timing issues
+	-	asynchronous event
+	-	real-world interactions，especiallly at speed
+	-	有些system timing 很難模擬出來，如clk 和 rst 一起到，如果是synchronous rst，就不知道是這個clk edge reset 還是下一個clk edge reset
+-	signal fidelity between ICs
+	-	真實上，會有很多noise，cross-talk，reflection，loading，EMI
+	- 穩定越高雜訊越多，雜訊越大reflection越大，reflection越大當機幾率越高
+-	interconnect reliability issues
+	-	實際操作上，訊號可能跑到其他地方
+	- 要靠LED，test pettern， chipscope 來測
+-	power supply issues
+	-	rst的耗電量比平常大5～10
+	-	好的設計，rst的耗電量要在3～5之前
+	-	實際上不可能所有的module都有rst
+	-	rst的耗電量太大，可能會rst不完全or燒掉
+	-	可以的方法：分多個state rst
+沒有一個最好的測試方法
+
+#### instrument-controlled test mux
+-	test mechine和FPGA形成close loop
+-	test machine送特殊test pettern給FPGA
+-	FPGA 送output回去給test machine
+-	對比test machine和FPGA的output
+
+
 
 # 注
 -	verilog 的 always@（negedge。。。||posedge。。。）是理想化的
