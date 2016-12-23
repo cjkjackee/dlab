@@ -193,7 +193,53 @@ CPLD
 -	FPGA 送output回去給test machine
 -	對比test machine和FPGA的output
 
+#timing
+-	數爲電路設計不能不管底層的東西
+	-	爲了最佳化
+-	所有的高階語言都不能發揮100%的戰鬥力除非對硬體的管控非常好
 
+### what-why-how
+-	要知道別人的設計是怎麼做的
+
+### what's the real problem
+-	不管寫軟體還是硬體都分
+	-	designers
+	-	tool developers
+-	designer
+	-	要over tool的限制
+-	developer
+	-	要比程式設計的人更懂程式設計
+
+### digital system timing convention
+-	寫程式最重要是平衡的
+-	可以寫到module是同步的，module和module之間是非同步的，是很厲害的
+-	1萬個gate count 的timing是對的，超過就不保證
+-	synchronous
+	-	壞處：容易發生碰撞
+	-	好處：等效提高效能
+	-	best path（最短路徑）沒有切好，就會發生資料碰撞
+-	asynchronous
+	-	必須要每1萬個gate切一刀，要寫ready訊號
+	-	如果真的等ack才接受資料，可能ack不傳，然後就當機了
+	-	沒有clk的情況：假設clk同源，但是相位有差
+
+### metastability
+-	setup time hold time
+-	同步電路上會error，錯timing，非同步電路會錯cycle
+
+### timing analysis
+-	重點：每一個gate的delay，每一個module的delay
+-	測量精準度，10倍可忽略，100倍可狀做不知道
+
+###  estimate logic delay
+-	gate 的後面都接gate當delay
+-	gate delay 真真的delay不是propagation delay，是inertial delay
+
+### issue of speed and area
+-	design for high throughput
+-	design for low latency
+-	design for timing
+- design for area
 
 # 注
 -	verilog 的 always@（negedge。。。||posedge。。。）是理想化的
