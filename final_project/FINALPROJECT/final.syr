@@ -1,0 +1,397 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: final.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "final.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "final"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : final
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "final.v" in library work
+Module <final> compiled
+No errors in compilation
+Analysis of file <"final.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <final> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <final>.
+Module <final> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <final>.
+    Related source file is "final.v".
+WARNING:Xst:647 - Input <k_clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <SW> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <k_data> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <triangle> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <square> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <rectangle> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <rand_tri> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <rand_sqr> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <rand_rec> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:653 - Signal <rand_cir> is used but never assigned. This sourceless signal will be automatically connected to value 00.
+WARNING:Xst:646 - Signal <circle> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <box9> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <box8> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <box7> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <box6> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <box5> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <box4> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <box3> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <box2> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <box1> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <blue>.
+    Found 11-bit up counter for signal <col>.
+    Found 11-bit comparator greatequal for signal <hsync$cmp_ge0000> created at line 59.
+    Found 11-bit comparator less for signal <hsync$cmp_lt0000> created at line 59.
+    Found 11-bit up counter for signal <row>.
+    Found 11-bit comparator greatequal for signal <visible$cmp_ge0000> created at line 61.
+    Found 11-bit comparator greatequal for signal <visible$cmp_ge0001> created at line 61.
+    Found 11-bit comparator less for signal <visible$cmp_lt0000> created at line 61.
+    Found 11-bit comparator less for signal <visible$cmp_lt0001> created at line 61.
+    Found 11-bit comparator greatequal for signal <vsync$cmp_ge0000> created at line 60.
+    Found 11-bit comparator less for signal <vsync$cmp_lt0000> created at line 60.
+    Summary:
+	inferred   2 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   8 Comparator(s).
+Unit <final> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 11-bit up counter                                     : 2
+# Registers                                            : 1
+ 1-bit register                                        : 1
+# Comparators                                          : 8
+ 11-bit comparator greatequal                          : 4
+ 11-bit comparator less                                : 4
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 11-bit up counter                                     : 2
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# Comparators                                          : 8
+ 11-bit comparator greatequal                          : 4
+ 11-bit comparator less                                : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <final> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block final, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 23
+ Flip-Flops                                            : 23
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : final.ngr
+Top Level Output File Name         : final
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 13
+
+Cell Usage :
+# BELS                             : 177
+#      GND                         : 1
+#      INV                         : 11
+#      LUT1                        : 30
+#      LUT2                        : 13
+#      LUT3                        : 4
+#      LUT3_D                      : 2
+#      LUT4                        : 30
+#      LUT4_D                      : 5
+#      LUT4_L                      : 1
+#      MUXCY                       : 57
+#      VCC                         : 1
+#      XORCY                       : 22
+# FlipFlops/Latches                : 23
+#      FDC                         : 12
+#      FDCE                        : 11
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 6
+#      IBUF                        : 1
+#      OBUF                        : 5
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       51  out of   4656     1%  
+ Number of Slice Flip Flops:             23  out of   9312     0%  
+ Number of 4 input LUTs:                 96  out of   9312     1%  
+ Number of IOs:                          13
+ Number of bonded IOBs:                   7  out of    232     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 23    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 23    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.391ns (Maximum Frequency: 156.470MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 8.407ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.391ns (frequency: 156.470MHz)
+  Total number of paths / destination ports: 652 / 34
+-------------------------------------------------------------------------
+Delay:               6.391ns (Levels of Logic = 3)
+  Source:            col_8 (FF)
+  Destination:       row_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: col_8 to row_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              5   0.591   0.808  col_8 (col_8)
+     LUT4_D:I0->O         11   0.704   0.968  col_cmp_eq000033 (col_cmp_eq000033)
+     LUT3:I2->O            1   0.704   0.424  col_cmp_eq000035 (col_cmp_eq0000)
+     LUT4:I3->O           11   0.704   0.933  row_not00011 (row_not0001)
+     FDCE:CE                   0.555          row_0
+    ----------------------------------------
+    Total                      6.391ns (3.258ns logic, 3.133ns route)
+                                       (51.0% logic, 49.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 45 / 3
+-------------------------------------------------------------------------
+Offset:              8.407ns (Levels of Logic = 11)
+  Source:            row_0 (FF)
+  Destination:       vsync (PAD)
+  Source Clock:      clk rising
+
+  Data Path: row_0 to vsync
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             6   0.591   0.844  row_0 (row_0)
+     LUT2:I0->O            1   0.704   0.000  Mcompar_vsync_cmp_ge0000_lut<0> (Mcompar_vsync_cmp_ge0000_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  Mcompar_vsync_cmp_ge0000_cy<0> (Mcompar_vsync_cmp_ge0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_vsync_cmp_ge0000_cy<1> (Mcompar_vsync_cmp_ge0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_vsync_cmp_ge0000_cy<2> (Mcompar_vsync_cmp_ge0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_vsync_cmp_ge0000_cy<3> (Mcompar_vsync_cmp_ge0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_vsync_cmp_ge0000_cy<4> (Mcompar_vsync_cmp_ge0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_vsync_cmp_ge0000_cy<5> (Mcompar_vsync_cmp_ge0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_vsync_cmp_ge0000_cy<6> (Mcompar_vsync_cmp_ge0000_cy<6>)
+     MUXCY:CI->O           1   0.459   0.595  Mcompar_vsync_cmp_ge0000_cy<7> (vsync_cmp_ge0000)
+     LUT2:I0->O            1   0.704   0.420  vsync1 (vsync_OBUF)
+     OBUF:I->O                 3.272          vsync_OBUF (vsync)
+    ----------------------------------------
+    Total                      8.407ns (6.548ns logic, 1.859ns route)
+                                       (77.9% logic, 22.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 5.05 secs
+ 
+--> 
+
+Total memory usage is 253160 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   20 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
