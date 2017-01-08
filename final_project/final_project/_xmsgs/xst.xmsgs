@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;final.v&quot; line 275 </arg>Connection to input port &apos;<arg fmt="%s" index="2">scoreboard1</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;final.v&quot; line 276 </arg>Connection to input port &apos;<arg fmt="%s" index="2">scoreboard2</arg>&apos; does not match port size
+</msg>
+
+<msg type="error" file="Xst" num="898" delta="old" >&quot;<arg fmt="%s" index="1">final.v</arg>&quot; line <arg fmt="%d" index="2">53</arg>: The reset or set test condition for &lt;<arg fmt="%s" index="3">current_state</arg>&gt; is incompatible with the event declaration in the sensitivity list.
+</msg>
+
+</messages>
+
